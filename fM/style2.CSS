@@ -1,0 +1,39 @@
+body {
+    background-image: url('assets/wp2756231-mother-3-wallpaper.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 0;
+    
+}
+header .imgg{
+    height: 75px;
+}
+
+#cuadro {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    animation: animacionTitulo 2s infinite alternate;
+}
+
+@keyframes animacionTitulo {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+img{
+    height: 170px;
+    cursor: pointer;
+}
